@@ -130,12 +130,12 @@ body {
 
 .pixel-pet.running {
   display: flex;
-  animation: walkFullPerimeter 30s linear infinite;
+  animation: walkFullPerimeter 240s linear infinite;
 }
 
 /* Connect counter-rotation animation to the speech bubbles */
 .pixel-pet.running .speech-bubbles {
-  animation: bubblePositionAndCounterRotate 30s linear infinite;
+  animation: bubblePositionAndCounterRotate 240s linear infinite;
 }
 
 /* Speech Bubbles Base Styling */
