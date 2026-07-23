@@ -225,7 +225,7 @@ body {
   /* TOP EDGE: Positioned BELOW character */
   0%, 24.9% {
     top: auto;
-    bottom: 90px;
+    bottom: 60px;
     left: auto;
     right: auto;
     flex-direction: row; /* Vertical layout */
@@ -235,7 +235,7 @@ body {
   /* LEFT EDGE: Shifted RIGHT to keep full text visible */
   25%, 49.9% {
     top: auto;
-    bottom: 90px;
+    bottom: 60px;
     left: auto;
     right: auto;
     flex-direction: column; /* Vertical layout */
@@ -246,7 +246,7 @@ body {
   /* BOTTOM EDGE: Positioned ABOVE character */
   50%, 74.9% {
     top: auto;
-    bottom: 90px;
+    bottom: 60px;
     left: auto;
     right: auto;
     align-items: center;
@@ -257,7 +257,7 @@ body {
   /* RIGHT EDGE: Shifted LEFT to keep full text visible */
   75%, 100% {
     top: auto;
-    bottom: 90px;
+    bottom: 60px;
     left: auto;
     right: auto;
     align-items: flex-end; /* Keeps text anchored cleanly from the right */
