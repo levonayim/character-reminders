@@ -130,12 +130,12 @@ body {
 
 .pixel-pet.running {
   display: flex;
-  animation: walkFullPerimeter 120s linear infinite;
+  animation: walkFullPerimeter 30s linear infinite;
 }
 
 /* Connect counter-rotation animation to the speech bubbles */
 .pixel-pet.running .speech-bubbles {
-  animation: bubblePositionAndCounterRotate 120s linear infinite;
+  animation: bubblePositionAndCounterRotate 30s linear infinite;
 }
 
 /* Speech Bubbles Base Styling */
@@ -177,43 +177,43 @@ body {
 /* Full Perimeter Animation */
 @keyframes walkFullPerimeter {
   0% {
-    top: 0px;
-    left: calc(100% - 40px);
+    top: -10px;
+    left: calc(100% - 25px);
     transform: rotate(180deg) scaleX(-0.5) scaleY(0.5);
   }
   24.9% {
-    top: 0px;
-    left: 0px;
+    top: -10px;
+    left: -10px;
     transform: rotate(180deg) scaleX(-0.5) scaleY(0.5);
   }
   25% {
-    top: 0px;
-    left: 0px;
+    top: -10px;
+    left: -10px;
     transform: rotate(90deg) scaleX(-0.5) scaleY(0.5);
   }
   49.9% {
-    top: calc(100% - 40px);
-    left: 0px;
+    top: calc(100% - 25px);
+    left: -10px;
     transform: rotate(90deg) scaleX(-0.5) scaleY(0.5);
   }
   50% {
-    top: calc(100% - 40px);
-    left: 0px;
+    top: calc(100% - 25px);
+    left: -10px;
     transform: rotate(0deg) scaleX(-0.5) scaleY(0.5);
   }
   74.9% {
-    top: calc(100% - 40px);
-    left: calc(100% - 40px);
+    top: calc(100% - 25px);
+    left: calc(100% - 25px);
     transform: rotate(0deg) scaleX(-0.5) scaleY(0.5);
   }
   75% {
-    top: calc(100% - 40px);
-    left: calc(100% - 40px);
+    top: calc(100% - 25px);
+    left: calc(100% - 25px);
     transform: rotate(-90deg) scaleX(-0.5) scaleY(0.5);
   }
   100% {
-    top: 0px;
-    left: calc(100% - 40px);
+    top: -10px;
+    left: calc(100% - 25px);
     transform: rotate(-90deg) scaleX(-0.5) scaleY(0.5);
   }
 }
